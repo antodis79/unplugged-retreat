@@ -442,7 +442,7 @@ aside .content-wrapper .form {
 }
 
 .features .features-item-description {
-  width: 50%;
+  width: 62%;
 }
 
 /* Reviews */
@@ -504,6 +504,10 @@ footer .copyright {
 
 /*---------------- Tablet Styles - Faq ------------------*/
 
+header {
+  padding: 15px 0;
+}
+
 .faq .content-wrapper {
   justify-content: space-between;
 }
@@ -520,8 +524,61 @@ footer .copyright {
     @media only screen and (min-width: 1200px) {
     
     /*Desktop styles here*/
-    
+
+  /* General */
+
+.content-wrapper {
+  max-width: 960px;
+}
+
+/* Hero Area */
+
+/* Hero */
+.hero-area h1 {
+  width: 60%;
+}
+ 
+/* Aside */
+
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 30%;
     }
+
+/* Features */
+
+.features h2 {
+  width: 90%;
+}
+
+.features article {
+  flex-basis: 33%;
+}
+
+/* Reviews */ 
+
+.reviews article div {
+  width: 42%;
+  }
+
+/*---------------- Desktop Styles - About page ------------------*/
+
+.mission h2, .contact-section .content-wrapper h2 {
+  width: 95%;
+}
+
+/*---------------- Desktop Styles - Faq ------------------*/
+
+.faq h2 {
+  width: 100%;
+}
+
+
+}
 
 /* ==========================================================================
    Print styles.
